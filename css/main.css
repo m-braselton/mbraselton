@@ -1,0 +1,100 @@
+/******grid*****/
+.full-width {
+   margin: 0 auto;
+   overflow: auto;
+   width: 1400px;
+}
+
+ .half-width {
+   margin-left: 50px;
+   margin-right: 50px;
+    float: left;
+    padding-bottom: 10px;
+    width: 550px;
+    height: 350px;
+  }
+
+ .third-width{
+    float:left;
+    width: 300px;
+    padding-bottom: 60px;
+    padding-left: 140px;
+
+}
+
+/*****header***/
+#header{
+  background-image:url('../img/hero-image.png');
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+
+#header h1 {
+  color: #57BE3A;
+  font-family:'Exo';
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 300px;
+  padding-right: 50px;
+  text-align: center;
+
+}
+#header p {
+  font-family:  'Inconsolata', monospace;
+  font-size: 38px;
+  padding-left: 325px;
+  text-align: center;
+  width: 700px;
+}
+
+.full-width h2{
+  font-family: 'Noto Serif', serif;
+  font-size: 35px;
+  font-weight: 700;
+  padding-right: 60px;
+  text-align: center;
+}
+#work{
+  background-color: #C7FFD3;
+}
+#work p{
+  font-family: 'Antic Slab', serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-indent: 14px;
+}
+#about{
+  background-color: #81C784;
+}
+#about p{
+  font-family: 'Antic Slab', serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-indent:14px;
+}
+#about video{
+  padding-left: 150px;
+  outline: none;
+}
+#contact{
+  background-color: #B894F6;
+}
+#contact h3{
+  font-family: 'Noto Serif', serif;
+  font-size: 30px;
+  padding-left: 575px;
+}
+#contact h4{
+  font-family: 'Exo';
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+#contact p{
+  padding-right: 150px;
+  text-align:center;
+}
+#contact img{
+  padding-right: 10px;
+}
